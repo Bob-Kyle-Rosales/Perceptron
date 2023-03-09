@@ -77,9 +77,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(61, 220);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 20);
+            this.label2.Size = new System.Drawing.Size(98, 20);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Input";
+            this.label2.Text = "Input -- (1,-1)";
             // 
             // textBox1
             // 
@@ -124,7 +124,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(278, 230);
+            this.label4.Location = new System.Drawing.Point(278, 220);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 20);
             this.label4.TabIndex = 11;
