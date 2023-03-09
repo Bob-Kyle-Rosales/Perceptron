@@ -15,6 +15,9 @@ namespace Perceptron
             label5.Text += learnRate;
         }
 
+        /// <summary>
+        /// initialize the weights and bias
+        /// </summary>
         public void intialize()
         {
             w1 = 0;
@@ -23,11 +26,23 @@ namespace Perceptron
             learnRate= 1;
         }
 
+        /// <summary>
+        /// implement hard limiting function where if
+        /// x is greater than 0, then it is 1
+        /// </summary>
+        /// <param name="x">y'</param>
+        /// <returns></returns>
         public int hardLimitingFunc(int x)
         {
             return x > 0 ? 1 : -1;
         }
 
+        /// <summary>
+        /// updates all the weights and bias
+        /// </summary>
+        /// <param name="desired"> the desired output </param>
+        /// <param name="x1">input 1</param>
+        /// <param name="x2">input 2</param>
         public void updateWeightsBias(int desired, int x1, int x2)
         {
             w1 = w1 + learnRate * desired * x1;
