@@ -67,6 +67,8 @@ namespace Perceptron
             int i = 0;
             int reLearn = 0;
             int res = 0;
+            
+            //unstable variable checks if there is no mistakes from the expected output and y'
             int unstable = 0;
 
             while(reLearn < 50)
@@ -83,7 +85,7 @@ namespace Perceptron
                 {
                     i++;
                 }
-                else if ( i == 3 && unstable == 0)
+                else if ( i == 3 && unstable == 0) //if there is no mistakes, then it will stop
                 {
                     break;
                 }
@@ -109,6 +111,8 @@ namespace Perceptron
             int i = 0;
             int reLearn = 0;
             int res = 0;
+
+            //unstable variable checks if there is no mistakes from the expected output and y'
             int unstable = 0;
 
             while (reLearn < 50)
@@ -125,7 +129,7 @@ namespace Perceptron
                 {
                     i++;
                 }
-                else if (i == 3 && unstable == 0)
+                else if (i == 3 && unstable == 0) //if there is no mistakes, then it will stop
                 {
                     break;
                 }
@@ -151,6 +155,8 @@ namespace Perceptron
             int i = 0;
             int reLearn = 0;
             int res = 0;
+
+            //unstable variable checks if there is no mistakes from the expected output and y'
             int unstable = 0;
 
             while (reLearn < 50)
@@ -167,7 +173,7 @@ namespace Perceptron
                 {
                     i++;
                 }
-                else if (i == 3 && unstable == 0)
+                else if (i == 3 && unstable == 0) //if there is no mistakes, then it will stop
                 {
                     break;
                 }
@@ -192,6 +198,8 @@ namespace Perceptron
             int i = 0;
             int reLearn = 0;
             int res = 0;
+
+            //unstable variable checks if there is no mistakes from the expected output and y'
             int unstable = 0;
 
             while (reLearn < 50)
@@ -208,7 +216,7 @@ namespace Perceptron
                 {
                     i++;
                 }
-                else if (i == 3 && unstable == 0)
+                else if (i == 3 && unstable == 0) //if there is no mistakes, then it will stop
                 {
                     break;
                 }
